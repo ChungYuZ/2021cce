@@ -11,6 +11,20 @@ int main()
 ```
 
 2. step02-1_有小數點的float浮點數 vs. 整數,在除法不同。請截圖上傳
+```c
+#include <stdio.h>
+int main()
+{
+    int a=123 , b=10;
+
+    int ans= a/b;
+
+    float ans2=123.0/10.0;
+
+    printf("¾ã¼Æ°£¾ã¼Æ %d\n",ans);
+    printf("floatªº°£ªk %f\n",ans2);
+}
+```
 
 3. step02-2_介紹課本的printf()的書寫格式, float 及 double 都是有小數點的數,重點是小數點後面有幾位,全部有幾位
 
