@@ -1,4 +1,12 @@
 1. 複習上週的 Hello World, 截圖上傳
+```c
+#include <stdio.h>
+int main()
+{
+    printf("Hello World\n");
+    printf("Hello World\n");
+}
+```
 
 2. 寫2行 Hello World 後面有反斜線n 表示跳行, 截圖上傳
 
