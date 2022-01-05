@@ -29,6 +29,14 @@ int main()
 ```
 
 4. 先從簡單的開始: %d 會插入右邊的十進位數字, 所以試著寫 printf( "%d", 300 );  截圖上傳
+```c
+#include <stdio.h>
+int main()
+{
+    printf( "Hello World\n");
+    printf( "%d" , 300 );
+}
+```
 
 5. 老師塞了很多 %d 讓你了解 數字 是怎麼塞進去的, 請跟著做, 截圖上傳
 
