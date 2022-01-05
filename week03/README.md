@@ -3,12 +3,19 @@
 #include <stdio.h>
 int main()
 {
-    printf("Hello World\n");
-    printf("Hello World\n");
+    printf("Hello World!");
 }
 ```
 
 2. 寫2行 Hello World 後面有反斜線n 表示跳行, 截圖上傳
+```c
+#include <stdio.h>
+int main()
+{
+    printf("Hello World\n");
+    printf("Hello World\n");
+}
+```
 
 3. 寫出 2數相加的程式, 但是不用執行 (因為我還沒教你們它的意思,只是先準備好程式碼), 截圖上傳
 
