@@ -39,6 +39,15 @@ int main()
 ```
 
 5. 老師塞了很多 %d 讓你了解 數字 是怎麼塞進去的, 請跟著做, 截圖上傳
+```c
+#include <stdio.h>
+int main()
+{
+    printf( "Hello World\n");
+    printf( "Hello%dWorld\n", 300);
+    printf( "%d %d    %d" , 300, 200, 100 );
+}
+```
 
 6. 老師教 scanf("%d", &a) 請試試看, 截圖上傳
 
